@@ -38,7 +38,7 @@ public class Datos {
     public static String[] obtenerNombresYGeneros() {
         String[] nombresYGeneros = new String[5];
         for (int i = 0; i < 5; i++) {
-            nombresYGeneros[i] = personas[i].getNombre() + " " + personas[i].getGenero();
+            nombresYGeneros[i] = personas[i].getNombre() + " " + personas[i].getApellido() + " " + personas[i].getGenero();
         }
         return nombresYGeneros;
     }
